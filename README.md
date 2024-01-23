@@ -1,7 +1,3 @@
-Sure, I'll draft a README file for your project. Given the file names and assuming this is a web application related to an educational setting with features for students, professors, and administrators, here's a generic README. Please customize it according to the actual functionality and details of your project:
-
----
-
 # Educational Portal
 
 ## Description
@@ -12,8 +8,8 @@ This web application serves as a comprehensive portal for an educational institu
 
 ### Prerequisites
 
-- A web server (e.g., Apache, Nginx)
-- PHP (version x.x or higher)
+- A web server
+- PHP 
 - MySQL (or another compatible database system)
 
 ### Setup
@@ -44,11 +40,3 @@ Contributions to this project are welcome. To contribute:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.txt).
-
----
-
-This README provides a basic structure. You should add specific details about your project, such as any specific setup instructions, detailed functionality of each page, and any additional features or considerations that users should be aware of.
