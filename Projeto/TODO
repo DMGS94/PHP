@@ -1,0 +1,125 @@
+Edição Lista 
+
+<!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Edição do Contacto <br>
+                                            <?php echo $user->getNome(); ?>
+                                        </h5>
+                                        <button type="button" class="btn-close" data-mdb-ripple-init data-mdb-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Edição do Contacto <br>
+                                            <?php echo $user->getNome(); ?>
+                                        </h5>
+                                        <button type="button" class="btn-close" data-mdb-ripple-init data-mdb-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <!-- Modal Body -->
+                                    <form method="post" class="container-fluid col-6 mb-5">
+                                        <div class="modal-body">
+                                            <!-- 2 column grid layout with text inputs for the first and last names -->
+                                            <div data-mdb-input-init class="form-outline mb-4">
+                                                <input type="text" id="form6Example5" class="form-control" name="nome"
+                                                    value="<?php echo $user->getNome(); ?>" />
+                                                <label class="form-label" for="form6Example1">Nome</label>
+                                            </div>
+                                            <!-- Email input -->
+                                            <div data-mdb-input-init class="form-outline mb-4">
+                                                <input type="email" id="form6Example5" class="form-control" name="email"
+                                                    value="<?php echo $user->getEmail(); ?>" />
+                                                <label class="form-label" for="form6Example5">Email</label>
+                                            </div>
+                                            <!-- Text input -->
+                                            <div data-mdb-input-init class="form-outline mb-4">
+                                                <input type="text" id="form6Example5" class="form-control" name="area"
+                                                    value="<?php echo $user->getArea(); ?>" />
+                                                <label class="form-label" for="form6Example2">Área</label>
+                                            </div>
+
+                                            <!-- Text input -->
+                                            <div data-mdb-input-init class="form-outline mb-4">
+                                                <input type="text" id="form6Example5" class="form-control" name="funcao"
+                                                    value="<?php echo $user->getFuncao(); ?>" />
+                                                <label class="form-label" for="form6Example3">Função</label>
+                                            </div>
+                                            <!-- Number input -->
+                                            <div data-mdb-input-init class="form-outline mb-4">
+                                                <input type="text" id="form6Example5" class="form-control" name="contacto"
+                                                    value="<?php echo $user->getContacto(); ?>" />
+                                                <label class="form-label" for="form6Example4">Contacto Telefónico</label>
+                                            </div>
+                                            <!-- Active input -->
+                                            <div data-mdb-input-init class="form-outline mb-4">
+                                                <input type="text" id="form6Example5" class="form-control" name="active"
+                                                    value="<?php echo $user->getActive(); ?>" />
+                                                <label class="form-label" for="form6Example6">Estado</label>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-mdb-ripple-init
+                                                data-mdb-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary" name="save" data-mdb-ripple-init>Save
+                                                changes</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edição do Contacto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post">
+                <div class="modal-body">
+                    <!-- Nome input -->
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome" value="<?php echo $user->getNome(); ?>">
+                    </div>
+                    <!-- Email input -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" value="<?php echo $user->getEmail(); ?>">
+                    </div>
+                    <!-- Área input -->
+                    <div class="mb-3">
+                        <label for="area" class="form-label">Área</label>
+                        <input type="text" class="form-control" id="area" name="area" value="<?php echo $user->getArea(); ?>">
+                    </div>
+                    <!-- Função input -->
+                    <div class="mb-3">
+                        <label for="funcao" class="form-label">Função</label>
+                        <input type="text" class="form-control" id="funcao" name="funcao" value="<?php echo $user->getFuncao(); ?>">
+                    </div>
+                    <!-- Contacto input -->
+                    <div class="mb-3">
+                        <label for="contacto" class="form-label">Contacto Telefónico</label>
+                        <input type="text" class="form-control" id="contacto" name="contacto" value="<?php echo $user->getContacto(); ?>">
+                    </div>
+                    <!-- Estado input -->
+                    <div class="mb-3">
+                        <label for="estado" class="form-label">Estado</label>
+                        <input type="text" class="form-control" id="estado" name="active" value="<?php echo $user->getActive(); ?>">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-primary" name="save">Salvar alterações</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
