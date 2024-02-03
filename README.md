@@ -11,8 +11,7 @@ Each project within this repository is contained in its own directory, complete 
 To get started with these projects, you'll need:
 
 - A PHP environment setup (version 7.4 or higher is recommended).
-- [Composer](https://getcomposer.org/) for dependency management in some projects.
-- A local or remote web server (like Apache or Nginx) to run the projects.
+- A local or remote web server (like Apache or Nginx or Xampp) to run the projects.
 
 ## Projects Overview
 
